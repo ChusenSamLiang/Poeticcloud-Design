@@ -389,30 +389,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-// Smooth Animations
-@keyframes fadeInUp {
-    from {
-        opacity: 0;
-        transform: translateY(30px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-// Accessibility
-@media (prefers-reduced-motion: reduce) {
-    html {
-        scroll-behavior: auto;
-    }
-    
-    * {
-        animation-duration: 0.01ms !important;
-        animation-iteration-count: 1 !important;
-        transition-duration: 0.01ms !important;
-    }
-}
+// Smooth Animations - CSS moved to styles.css
 
 // Focus styles for keyboard navigation
 document.addEventListener('DOMContentLoaded', function() {
