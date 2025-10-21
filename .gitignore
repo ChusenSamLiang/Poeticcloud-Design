@@ -1,0 +1,45 @@
+# PoeticCloud Design - Git Ignore File
+
+# System files
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# Rate limiting file (if using PHP)
+rate_limit.txt
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Node modules (if using build tools)
+node_modules/
+npm-debug.log*
+
+# Build outputs
+dist/
+build/
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# EmailJS keys (keep private)
+emailjs-keys.js
+
+# Temporary files
+temp/
+tmp/
